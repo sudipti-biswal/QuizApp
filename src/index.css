@@ -1,0 +1,82 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
+    monospace;
+}
+/* Styling for the question overview */
+.question-list {
+  list-style: none;
+  padding: 0;
+}
+
+.question-item {
+  padding: 10px;
+  margin: 5px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.question-item.active {
+  background-color: #f0f0f0;
+}
+
+.question-item.visited {
+  border-color: #3498db;
+}
+
+.question-item.attempted {
+  border-color: #e74c3c;
+}
+
+/* Styling for the timer */
+.timer {
+  font-size: 18px;
+  margin-bottom: 20px;
+}
+
+/* Styling for the quiz questions */
+.quiz-question {
+  margin-bottom: 20px;
+  padding: 15px;
+  border: 1px solid #ccc;
+}
+
+/* Styling for answer choices */
+.answer-choice {
+  margin: 10px 0;
+  padding: 10px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.answer-choice:hover {
+  background-color: #f0f0f0;
+}
+
+/* Styling for attempted answer choices */
+.attempted-choice {
+  background-color: #e74c3c;
+  color: #fff;
+}
+
+/* Styling for correct answer choice */
+.correct-choice {
+  background-color: #2ecc71;
+  color: #fff;
+}
+
+/* Styling for incorrect answer choice */
+.incorrect-choice {
+  background-color: #e74c3c;
+  color: #fff;
+}
