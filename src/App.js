@@ -5,7 +5,7 @@ import QuizComponent from "./components/QuizComponent";
 const App = () => {
   const [showQuiz, setShowQuiz] = useState(false);
   const [email, setEmail] = useState("");
-  const [quizLoaded, setQuizLoaded] = useState(false);
+  const setQuizLoaded = useState(false);
   const [quizTimerActive, setQuizTimerActive] = useState(false);
   const [quizTimerExpired, setQuizTimerExpired] = useState(false);
 
